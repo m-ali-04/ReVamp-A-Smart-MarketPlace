@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.gluonhq.charm.glisten.control.DropdownButton?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.StartController">
+   <children>
+      <Button layoutX="287.0" layoutY="175.0" mnemonicParsing="false" onAction="#button1" text="Button" />
+      <DropdownButton layoutX="277.0" layoutY="119.0">
+          <items>
+              <MenuItem text="Choice 1" />
+              <MenuItem text="Choice 2" />
+              <MenuItem text="Choice 3" />
+          </items>
+      </DropdownButton>
+   </children>
+</AnchorPane>

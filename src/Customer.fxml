@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.CustomerController">
+   <children>
+      <Button fx:id="items" layoutX="236.0" layoutY="116.0" mnemonicParsing="false" onAction="#gotoItems" text="View items">
+         <font>
+            <Font name="Times New Roman" size="25.0" />
+         </font>
+      </Button>
+      <Label layoutX="108.0" layoutY="37.0" text="Revamp - Customer">
+         <font>
+            <Font name="Times New Roman" size="50.0" />
+         </font>
+      </Label>
+      <Button fx:id="services" layoutX="220.0" layoutY="167.0" mnemonicParsing="false" onAction="#gotoServices" text="View Services">
+         <font>
+            <Font name="Times New Roman" size="25.0" />
+         </font>
+      </Button>
+      <Button fx:id="active_orders" layoutX="192.0" layoutY="218.0" mnemonicParsing="false" onAction="#seeActiveOrders" text="View Active Orders">
+         <font>
+            <Font name="Times New Roman" size="25.0" />
+         </font>
+      </Button>
+      <Button fx:id="active_services" layoutX="184.0" layoutY="271.0" mnemonicParsing="false" onAction="#seeActiveServices" text="View Active Services">
+         <font>
+            <Font name="Times New Roman" size="25.0" />
+         </font>
+      </Button>
+      <Button fx:id="order_history" layoutX="223.0" layoutY="323.0" mnemonicParsing="false" onAction="#gotoHistory" text="Order History">
+         <font>
+            <Font name="Times New Roman" size="25.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

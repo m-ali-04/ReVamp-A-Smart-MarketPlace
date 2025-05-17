@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.cartController">
+   <children>
+      <Label layoutX="59.0" layoutY="14.0" text="Revamp - Item Selection">
+         <font>
+            <Font name="Times New Roman" size="50.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="59.0" layoutY="272.0" prefHeight="28.0" prefWidth="226.0" text="Enter amount of Item: ">
+         <font>
+            <Font name="Times New Roman" size="24.0" />
+         </font>
+      </Label>
+      <TextField fx:id="num_items" layoutX="311.0" layoutY="274.0" />
+      <CheckBox fx:id="rent" alignment="CENTER" layoutX="59.0" layoutY="85.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="158.0" text="Rent">
+         <font>
+            <Font name="Times New Roman" size="32.0" />
+         </font>
+      </CheckBox>
+      <CheckBox fx:id="purchase" alignment="CENTER" layoutX="61.0" layoutY="207.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="185.0" text="Purchase">
+         <font>
+            <Font name="Times New Roman" size="30.0" />
+         </font>
+      </CheckBox>
+      <Label alignment="CENTER" layoutX="61.0" layoutY="158.0" prefHeight="28.0" prefWidth="240.0" text="Rent Duration (Weeks): ">
+         <font>
+            <Font name="Times New Roman" size="24.0" />
+         </font>
+      </Label>
+      <TextField fx:id="duration_rent" layoutX="311.0" layoutY="160.0" />
+      <Button fx:id="proceed" layoutX="252.0" layoutY="338.0" mnemonicParsing="false" onAction="#proceed_to_items" prefHeight="48.0" prefWidth="113.0" text="Proceed !">
+         <font>
+            <Font name="Times New Roman" size="20.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
